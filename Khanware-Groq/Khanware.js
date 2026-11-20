@@ -3,7 +3,7 @@ let isDev = false;
 
 let repoPath;
 
-const GITHUB_REPO = "YOUR_USERNAME/YOUR_REPO"; // Replace after uploading to GitHub
+const GITHUB_REPO = "QuozzThien/K-NEW"; // Replace after uploading to GitHub
 
 const availableCDNs = [
     `https://raw.githubusercontent.com/${GITHUB_REPO}/refs/heads/${isDev ? "dev" : "main"}/`,
