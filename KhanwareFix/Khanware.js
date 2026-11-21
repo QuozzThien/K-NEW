@@ -4,9 +4,9 @@ let isDev = false;
 let repoPath;
 
 const availableCDNs = [
-    `https://raw.githubusercontent.com/Niximkk/Khanware/refs/heads/${isDev ? "dev" : "main"}/`,
-    `https://cdn.jsdelivr.net/gh/niximkk/khanware@${isDev ? "dev" : "master"}/`,
-    `https://cdn.statically.io/gh/Niximkk/Khanware/refs/heads/${isDev ? "dev" : "main"}/`
+    `https://raw.githubusercontent.com/QuozzThien/K-NEW/refs/heads/${isDev ? "dev" : "main"}/KhanwareFix/`,
+    `https://cdn.jsdelivr.net/gh/QuozzThien/K-NEW@${isDev ? "dev" : "main"}/KhanwareFix/`,
+    `https://cdn.statically.io/gh/QuozzThien/K-NEW/refs/heads/${isDev ? "dev" : "main"}/KhanwareFix/`
 ];
 
 let device = {
